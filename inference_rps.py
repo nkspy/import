@@ -255,17 +255,9 @@ while (1):
     frame= cv2.putText(frame, '{}'.format(CATEGORIES[index]), (20, 20), font, 1, (255, 0, 23), 4, cv2.LINE_AA)
     cv2.imshow('RPS Prediction', frame)
 #     cv2.drawContours(frame, [hull], -1, (255, 255, 255), 2)
-#
-#     ##### Show final image ########
-#     #cv2.imshow('Dilation', frame)
-#     ###############################
-#
-#     # Print execution time
-#     # print time.time()-start_time
+
+
 #
 #     # close the output video by pressing 'ESC'
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-#
-# cap.release()
-# cv2.destroyAllWindows()
