@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-import cv2
+import cv2 
 from tqdm import tqdm
-
+#a model for rps game that can predict based upon your action 
 DATADIR = r"E:\ML workspace\RPS\rps_training"
 
 CATEGORIES = ["paper", "rock","scissors"]
